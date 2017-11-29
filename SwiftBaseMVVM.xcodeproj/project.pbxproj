@@ -122,7 +122,6 @@
 				89CDBF801FCE82050045457B /* File.swift */,
 				89CDBF7F1FCE82050045457B /* SwiftMessageManager.swift */,
 				89CDBF821FCE82050045457B /* HTTPRequestTool.swift */,
-				89CDBF841FCE82050045457B /* ViewModel.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -142,6 +141,14 @@
 				89CDBF811FCE82050045457B /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		898197F61FCEA2B800B73AA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89CDBF841FCE82050045457B /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		89CDBF451FCE817B0045457B = {
@@ -169,6 +176,7 @@
 		89CDBF501FCE817B0045457B /* SwiftBaseMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				898197F61FCEA2B800B73AA7 /* ViewModel */,
 				898197F51FCEA03300B73AA7 /* Model */,
 				898197F41FCE9FDC00B73AA7 /* Main */,
 				898197F21FCE9FB700B73AA7 /* Base */,
