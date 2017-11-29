@@ -7,11 +7,7 @@
 //
 
 import UIKit
-import Alamofire
-import RxCocoa
 import RxSwift
-import Moya
-import ObjectMapper
 import Moya_ObjectMapper
 class ViewModel: NSObject {
     func getCategories(ImgData:Data) -> Observable<Model> {
