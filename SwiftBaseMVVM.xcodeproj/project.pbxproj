@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835964E4283EC3FB51579AA1 /* Pods_SwiftBaseMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF17B874338EEA9C3D3DA19 /* Pods_SwiftBaseMVVM.framework */; };
 		89CDBF521FCE817B0045457B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF511FCE817B0045457B /* AppDelegate.swift */; };
 		89CDBF541FCE817B0045457B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF531FCE817B0045457B /* ViewController.swift */; };
 		89CDBF571FCE817B0045457B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CDBF551FCE817B0045457B /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		89CDBF5C1FCE817B0045457B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CDBF5A1FCE817B0045457B /* LaunchScreen.storyboard */; };
 		89CDBF671FCE817B0045457B /* SwiftBaseMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF661FCE817B0045457B /* SwiftBaseMVVMTests.swift */; };
 		89CDBF721FCE817B0045457B /* SwiftBaseMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF711FCE817B0045457B /* SwiftBaseMVVMUITests.swift */; };
+		89CDBF861FCE82060045457B /* SwiftMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF7F1FCE82050045457B /* SwiftMessageManager.swift */; };
+		89CDBF871FCE82060045457B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF801FCE82050045457B /* File.swift */; };
+		89CDBF881FCE82060045457B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF811FCE82050045457B /* Model.swift */; };
+		89CDBF891FCE82060045457B /* HTTPRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF821FCE82050045457B /* HTTPRequestTool.swift */; };
+		89CDBF8A1FCE82060045457B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF831FCE82050045457B /* BaseViewController.swift */; };
+		89CDBF8B1FCE82060045457B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF841FCE82050045457B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50120DF9450795F7C2C1CEB7 /* Pods-SwiftBaseMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		5EF17B874338EEA9C3D3DA19 /* Pods_SwiftBaseMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CDBF4E1FCE817B0045457B /* SwiftBaseMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaseMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CDBF511FCE817B0045457B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89CDBF531FCE817B0045457B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		89CDBF6D1FCE817B0045457B /* SwiftBaseMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBaseMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CDBF711FCE817B0045457B /* SwiftBaseMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBaseMVVMUITests.swift; sourceTree = "<group>"; };
 		89CDBF731FCE817B0045457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CDBF7F1FCE82050045457B /* SwiftMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMessageManager.swift; sourceTree = "<group>"; };
+		89CDBF801FCE82050045457B /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		89CDBF811FCE82050045457B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89CDBF821FCE82050045457B /* HTTPRequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestTool.swift; sourceTree = "<group>"; };
+		89CDBF831FCE82050045457B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		89CDBF841FCE82050045457B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DB071853528D01B0BD8BC804 /* Pods-SwiftBaseMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835964E4283EC3FB51579AA1 /* Pods_SwiftBaseMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08BD4DEA19FE4DB7F2E75545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF17B874338EEA9C3D3DA19 /* Pods_SwiftBaseMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372A9E6822CB1582B3394EB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB071853528D01B0BD8BC804 /* Pods-SwiftBaseMVVM.debug.xcconfig */,
+				50120DF9450795F7C2C1CEB7 /* Pods-SwiftBaseMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		898197F21FCE9FB700B73AA7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89CDBF831FCE82050045457B /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		898197F31FCE9FD400B73AA7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				89CDBF801FCE82050045457B /* File.swift */,
+				89CDBF7F1FCE82050045457B /* SwiftMessageManager.swift */,
+				89CDBF821FCE82050045457B /* HTTPRequestTool.swift */,
+				89CDBF841FCE82050045457B /* ViewModel.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		898197F41FCE9FDC00B73AA7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				89CDBF511FCE817B0045457B /* AppDelegate.swift */,
+				89CDBF531FCE817B0045457B /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		898197F51FCEA03300B73AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89CDBF811FCE82050045457B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		89CDBF451FCE817B0045457B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				89CDBF651FCE817B0045457B /* SwiftBaseMVVMTests */,
 				89CDBF701FCE817B0045457B /* SwiftBaseMVVMUITests */,
 				89CDBF4F1FCE817B0045457B /* Products */,
+				372A9E6822CB1582B3394EB6 /* Pods */,
+				08BD4DEA19FE4DB7F2E75545 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +169,10 @@
 		89CDBF501FCE817B0045457B /* SwiftBaseMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				89CDBF511FCE817B0045457B /* AppDelegate.swift */,
-				89CDBF531FCE817B0045457B /* ViewController.swift */,
+				898197F51FCEA03300B73AA7 /* Model */,
+				898197F41FCE9FDC00B73AA7 /* Main */,
+				898197F21FCE9FB700B73AA7 /* Base */,
+				898197F31FCE9FD400B73AA7 /* Tool */,
 				89CDBF551FCE817B0045457B /* Main.storyboard */,
 				89CDBF581FCE817B0045457B /* Assets.xcassets */,
 				89CDBF5A1FCE817B0045457B /* LaunchScreen.storyboard */,
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89CDBF761FCE817B0045457B /* Build configuration list for PBXNativeTarget "SwiftBaseMVVM" */;
 			buildPhases = (
+				CEFEC830A098F95F27D715BF /* [CP] Check Pods Manifest.lock */,
 				89CDBF4A1FCE817B0045457B /* Sources */,
 				89CDBF4B1FCE817B0045457B /* Frameworks */,
 				89CDBF4C1FCE817B0045457B /* Resources */,
+				A9B068C7AFA7E43F13AA4203 /* [CP] Embed Pods Frameworks */,
+				23C796B498D220E0A5467D9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +331,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23C796B498D220E0A5467D9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B068C7AFA7E43F13AA4203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FileBrowser/FileBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFEC830A098F95F27D715BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBaseMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89CDBF4A1FCE817B0045457B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CDBF881FCE82060045457B /* Model.swift in Sources */,
 				89CDBF541FCE817B0045457B /* ViewController.swift in Sources */,
+				89CDBF871FCE82060045457B /* File.swift in Sources */,
+				89CDBF891FCE82060045457B /* HTTPRequestTool.swift in Sources */,
+				89CDBF861FCE82060045457B /* SwiftMessageManager.swift in Sources */,
+				89CDBF8A1FCE82060045457B /* BaseViewController.swift in Sources */,
+				89CDBF8B1FCE82060045457B /* ViewModel.swift in Sources */,
 				89CDBF521FCE817B0045457B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +597,13 @@
 		};
 		89CDBF771FCE817B0045457B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB071853528D01B0BD8BC804 /* Pods-SwiftBaseMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VALQ39Y9P2;
 				INFOPLIST_FILE = SwiftBaseMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyx.SwiftBaseMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +614,13 @@
 		};
 		89CDBF781FCE817B0045457B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50120DF9450795F7C2C1CEB7 /* Pods-SwiftBaseMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VALQ39Y9P2;
 				INFOPLIST_FILE = SwiftBaseMVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyx.SwiftBaseMVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
