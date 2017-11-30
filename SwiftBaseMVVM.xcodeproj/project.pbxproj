@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		835964E4283EC3FB51579AA1 /* Pods_SwiftBaseMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF17B874338EEA9C3D3DA19 /* Pods_SwiftBaseMVVM.framework */; };
+		8956FE391FCF9513007FA1B1 /* UIView+ ViewChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956FE381FCF9513007FA1B1 /* UIView+ ViewChainable.swift */; };
 		89CDBF521FCE817B0045457B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF511FCE817B0045457B /* AppDelegate.swift */; };
 		89CDBF541FCE817B0045457B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CDBF531FCE817B0045457B /* ViewController.swift */; };
 		89CDBF571FCE817B0045457B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CDBF551FCE817B0045457B /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		50120DF9450795F7C2C1CEB7 /* Pods-SwiftBaseMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaseMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaseMVVM/Pods-SwiftBaseMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		5EF17B874338EEA9C3D3DA19 /* Pods_SwiftBaseMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaseMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8956FE381FCF9513007FA1B1 /* UIView+ ViewChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ ViewChainable.swift"; sourceTree = "<group>"; };
 		89CDBF4E1FCE817B0045457B /* SwiftBaseMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaseMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CDBF511FCE817B0045457B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89CDBF531FCE817B0045457B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		898197F31FCE9FD400B73AA7 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				8956FE381FCF9513007FA1B1 /* UIView+ ViewChainable.swift */,
 				89CDBF801FCE82050045457B /* File.swift */,
 				89CDBF7F1FCE82050045457B /* SwiftMessageManager.swift */,
 				89CDBF821FCE82050045457B /* HTTPRequestTool.swift */,
@@ -440,6 +443,7 @@
 				89CDBF891FCE82060045457B /* HTTPRequestTool.swift in Sources */,
 				89CDBF861FCE82060045457B /* SwiftMessageManager.swift in Sources */,
 				89CDBF8A1FCE82060045457B /* BaseViewController.swift in Sources */,
+				8956FE391FCF9513007FA1B1 /* UIView+ ViewChainable.swift in Sources */,
 				89CDBF8B1FCE82060045457B /* ViewModel.swift in Sources */,
 				89CDBF521FCE817B0045457B /* AppDelegate.swift in Sources */,
 			);

@@ -8,26 +8,27 @@
 
 import UIKit
 import RxSwift
+import Then
 import NVActivityIndicatorView
-let activityIndi​​catorView:NVActivityIndicatorView? = NVActivityIndicatorView(frame: CGRect(x: SCREEN_WIDTH/2-25, y: SCREEN_HEIGHT/2, width: 50, height: 50), type: NVActivityIndicatorType(rawValue: 1), color: UIColor.red, padding: 1.0)
+let activityIndi​​catorView = NVActivityIndicatorView(frame: CGRect(x: SCREEN_WIDTH/2-25, y: SCREEN_HEIGHT/2, width: 50, height: 50), type: NVActivityIndicatorType(rawValue: 1), color: UIColor.red, padding: 1.0)
 class ViewController: BaseViewController {
     let disposeBag = DisposeBag()
     let viewModel  = ViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(activityIndi​​catorView!)
-        activityIndi​​catorView?.startAnimating()
+        self.view.addSubview(activityIndi​​catorView)
+        activityIndi​​catorView.startAnimating()
         let image = UIImage(named: "timg")
         let imageData = UIImageJPEGRepresentation(image!, 0.5)!
         viewModel.getCategories(ImgData:imageData)
             .subscribe({  event in
                 switch event {
                 case .next(let models):
-                    print(models.toJSON())
-                    activityIndi​​catorView?.stopAnimating()
+                    print(models.msg ?? String())
+                    activityIndi​​catorView.stopAnimating()
                 case .error(let error):
                     print(error.localizedDescription)
-                    activityIndi​​catorView?.stopAnimating()
+                    activityIndi​​catorView.stopAnimating()
                 case .completed:
                     return
                 }
