@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.5.1)
   - CryptoSwift (0.8.0)
+  - EZSwiftExtensions (1.11)
   - FileBrowser (1.0.0)
   - FSCalendar (2.7.9)
   - Hero (1.0.1)
@@ -37,6 +38,7 @@ PODS:
 
 DEPENDENCIES:
   - CryptoSwift
+  - EZSwiftExtensions
   - FileBrowser
   - FSCalendar
   - Hero
@@ -57,6 +59,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   CryptoSwift: f81907430ebbe38b8404b4f6fb40f3c576a8755f
+  EZSwiftExtensions: 84000042202d9fd574f626cda3064143f27fa767
   FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   Hero: cee286821578e170d8c0c9c9cda7897357401112
@@ -75,6 +78,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
 
-PODFILE CHECKSUM: a51e9f9d3fc55994c0c172173410210e48314ea6
+PODFILE CHECKSUM: 0b09c15ac4f7578e9b0ba907d9074a4a6b8d5948
 
 COCOAPODS: 1.4.0.beta.2
